@@ -1,4 +1,4 @@
-## datasert_converter
+## dataset_converter
 可以将ROS bag中的RGBD图像数据转换成TUM数据集的格式，并自动进行深度图和彩色图的匹配生成associate.txt文件
 ### 使用方法
 #### 0 编译及环境
