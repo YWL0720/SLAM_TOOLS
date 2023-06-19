@@ -11,7 +11,7 @@ ROS工具包集合，更新SLAM实用的ROS工具
 #### 0 编译及环境
 测试环境Ubuntu 20.04 + ROS noetic 
 ```bash
-cp datasert_converter YOUR_WORKSPACE_PATH/src
+cp -r datasert_converter YOUR_WORKSPACE_PATH/src
 cd YOUR_WORKSPACE_PATH
 catkin_make
 ```
