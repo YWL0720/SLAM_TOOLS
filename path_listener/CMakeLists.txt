@@ -135,6 +135,8 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/path_listener_node.cpp)
 add_executable(path_listener src/path_listener.cpp)
+add_executable(pose_listener src/pose_array_listener.cpp)
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -150,6 +152,8 @@ add_executable(path_listener src/path_listener.cpp)
 #   ${catkin_LIBRARIES}
 # )
 target_link_libraries(path_listener ${catkin_LIBRARIES})
+target_link_libraries(pose_listener ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############
